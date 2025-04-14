@@ -1,1 +1,2 @@
-let integrantes = ["Franco Almaraz",""]
+let integrantes = "Franco Almaraz";
+console.log ("Hola " + integrantes)

@@ -7,6 +7,6 @@ function capturar(event){
     alert ("Los datos ingresados son: " + "\n"+ 
         "Nombre: " + nombre + "\n"+ 
         "Apellido: " +apellido +"\n"+
-        "Libeta Univesitaria: " + libreta)
+        "Libreta Univesitaria: " + libreta)
 }
 

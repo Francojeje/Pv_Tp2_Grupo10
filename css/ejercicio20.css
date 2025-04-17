@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(77, 74, 71);
+}
+#contenedor{
+    background-color: rgb(109, 95, 77);
+    width: 300px;
+    margin: 200px auto;
+    padding: 10px;
+    text-align: center;
+}
+.label{
+    color: azure;
+    font-size: 20px;
+}
+#paises{
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+}
+#capitales{
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+}

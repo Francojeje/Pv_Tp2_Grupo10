@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(36, 33, 33);
+}
+#contenedor{
+    width: 300px;
+    height: auto;
+    margin: 200px auto;
+    background-color: rgb(92, 88, 84);
+    text-align: center;
+    padding: 20px;
+}
+input{
+    padding: 5px;
+    margin: 10px;
+}
+#boton{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    
+}

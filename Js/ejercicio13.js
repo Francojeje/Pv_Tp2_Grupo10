@@ -1,6 +1,6 @@
 function mostrararreglo(arreglo){
     for(let i = 0 ; i < arreglo.length ; i++){
-        console.log ("Numero " + arreglo[i]);
+        alert ("Numero " + arreglo[i]);
     }
 }
 let arreglo = [3,4,6,7,8];

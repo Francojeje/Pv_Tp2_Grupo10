@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(36, 33, 33);
+    margin: 200px auto;
+}
+form{
+    width: 200px;
+    margin:  auto;
+    text-align: center;
+}
+label{
+    color: bisque;
+}
+input{
+    padding: 5px;
+    margin: 10px;
+}
+p{
+    width: 400px;
+    color: azure;
+    font-size: 30px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    background-color: black;
+    margin: auto;
+}

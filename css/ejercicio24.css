@@ -6,4 +6,12 @@ body{
     font-size: 30px;
     border-radius: 15px;
     padding: 10px;
+    transition: .3s;
+}
+#boton:hover {
+    font-size: 40px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(112, 95, 95);
+    color: beige;
 }

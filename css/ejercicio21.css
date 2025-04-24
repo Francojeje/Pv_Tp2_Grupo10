@@ -1,6 +1,7 @@
 body{
-    background-color: rgb(36, 33, 33);
+    background-color: rgb(208, 176, 137);
     margin: 200px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 form{
     width: 200px;
@@ -9,18 +10,36 @@ form{
 }
 label{
     color: bisque;
+    font-size: 18px;
 }
 input{
     padding: 5px;
     margin: 10px;
+    border-radius:10px;
+    height: 20px;
+    border: 2px rgb(100, 100, 129) solid;
+    background-color: rgb(237, 239, 240);
 }
 p{
-    width: 400px;
+    width: 350px;
     color: azure;
     font-size: 30px;
     word-wrap: break-word;
     overflow-wrap: break-word;
     white-space: normal;
-    background-color: black;
+    background-color: rgb(86, 88, 108);
     margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    height: 45px;
+    border: 4px rgb(91, 91, 91) solid;
+}
+div{
+    background-color: gray;
+    margin: auto;
+    width: 400px;
+    height: 170px;
+    border-radius: 10px;
+    padding: 20px;
+    outline: 5px black outset;
 }

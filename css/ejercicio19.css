@@ -2,20 +2,34 @@ body{
     background-color: rgb(36, 33, 33);
 }
 #contenedor{
-    width: 300px;
+    width: 230px;
     height: auto;
     margin: 200px auto;
-    background-color: rgb(92, 88, 84);
+    background-color: rgb(158, 133, 108);
     text-align: center;
     padding: 20px;
+    border-radius: 20px;
+    outline: 4px rgba(157, 114, 67, 0.514) solid;
+}
+p{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, 'sans-serif'
+
 }
 input{
     padding: 5px;
     margin: 10px;
+    border-radius: 5px;
+    font-family:Verdana, Geneva, Tahoma, 'sans-serif'
 }
 #boton{
     display: block;
     margin: auto;
     margin-top: 10px;
+    width: 190px;
+    border-radius: 5px;
+    font-family:Verdana, Geneva, Tahoma, 'sans-serif';
+    height: 27px;
+    
     
 }

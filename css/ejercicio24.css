@@ -1,0 +1,9 @@
+body{
+    width: fit-content;
+    margin: 250px auto;
+}
+#boton{
+    font-size: 30px;
+    border-radius: 15px;
+    padding: 10px;
+}

@@ -5,3 +5,4 @@ opcion.addEventListener("change",function(e){
         parrafo.textContent = "Elegiste: "+  e.target.value;
         console.log(parrafo.textContent)
     }
+})

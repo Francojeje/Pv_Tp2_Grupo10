@@ -7,18 +7,29 @@ body{
     margin: 200px auto;
     padding: 10px;
     text-align: center;
+    border-radius: 20px;
+    outline: 4px rgb(72, 62, 48) outset;
 }
 .label{
     color: azure;
     font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #paises{
     display: block;
     margin: 10px auto;
     padding: 5px;
+    border-radius: 5px;
+    width: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: 2px inset;
 }
 #capitales{
     display: block;
     margin: 10px auto;
     padding: 5px;
+    border-radius: 5px;
+    width: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: 2px inset;
 }

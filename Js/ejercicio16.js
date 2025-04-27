@@ -1,4 +1,4 @@
-function sumarRango() {
+const sumarRango = (resultado) => {
     const numeroInicial = parseInt(prompt("Ingrese el número inicial:"));
     const numeroFinal = parseInt(prompt("Ingrese el número final:"));
 

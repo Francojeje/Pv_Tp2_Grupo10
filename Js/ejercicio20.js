@@ -1,7 +1,7 @@
 let paises = document.getElementById("paises")
 let capitales = document.getElementById("capitales")
 
-paises.addEventListener("change", function (){
+paises.addEventListener("change",() =>{
     const valor = paises.value
     console.log (valor)
     switch(valor){

@@ -1,4 +1,4 @@
-function mostrararreglo(arreglo){
+const mostrararreglo = (arreglo) =>{
     for(let i = 0 ; i < arreglo.length ; i++){
         alert ("Numero " + arreglo[i]);
     }

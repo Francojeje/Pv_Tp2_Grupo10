@@ -1,4 +1,4 @@
-function verificarParidad() {
+const verificarParidad = () => {
     const numero = parseInt(prompt("Por favor, ingrese un número:"));
     if (isNaN(numero)) {
         alert("Por favor, ingrese un número válido.");

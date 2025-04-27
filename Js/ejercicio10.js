@@ -1,4 +1,4 @@
-function calcularPromedio() {
+const calcularPromedio = () => {
     // Solicitar al usuario que ingrese tres números enteros
     let numero1 = parseInt(prompt("Ingrese el primer número entero:"));
     let numero2 = parseInt(prompt("Ingrese el segundo número entero:"));

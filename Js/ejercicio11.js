@@ -1,4 +1,4 @@
-function calcularConsumo() {
+const calcularConsumo = () => {
     const kilometros = parseFloat(prompt("Ingrese el número de kilómetros recorridos por su vehículo:"));
     const litros = parseFloat(prompt("Ingrese el número de litros de combustible consumidos:"));
 

@@ -1,4 +1,5 @@
-function contarletra (cadena){
+let string = prompt("Ingrese un string")
+const contarletra = (cadena) => {
     let long = cadena.length 
     let cont = 0 
     for(let i = 0 ; i < long ; i++){
@@ -8,5 +9,4 @@ function contarletra (cadena){
     }
     return alert("Cantidad de 'A o a' en el string: " + cont)
 }
-let string = prompt("Ingrese un string")
 contarletra(string)

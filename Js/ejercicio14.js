@@ -1,5 +1,5 @@
 
-function duplicar (arreglo){
+const duplicar = (arreglo) =>{
     let nuevo = [];
     for(let i = 0; i < arreglo.length ;i++){
         nuevo.push(arreglo[i]*2)

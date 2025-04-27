@@ -1,5 +1,4 @@
-document.getElementById("boton").addEventListener("click", capturar);
-function capturar(event){
+const capturar = (event) =>{
     event.preventDefault()
     let nombre = document.querySelector("#Nombre").value
     let apellido = document.querySelector("#Apellido").value
@@ -9,4 +8,5 @@ function capturar(event){
         "Apellido: " +apellido +"\n"+
         "Libreta Univesitaria: " + libreta)
 }
+document.getElementById("boton").addEventListener("click", capturar);
 
